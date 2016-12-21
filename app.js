@@ -5,9 +5,8 @@ app.get('/',function(req,res) {
 });
 
 var server = app.listen(3333, function () {
-  console.log('Server runing ...');
+  console.log('Server running ...');
 });
 server.on('error', function(err) {
   console.log(err);
-  
 });
