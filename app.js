@@ -1,7 +1,7 @@
 var app = require('express')();
 
 app.get('/',function(req,res) {
-  res.send("Hello World and Mery Cristmas")
+  res.send("Hello World and Merry Christmas")
 });
 
 var server = app.listen(3333, function () {
